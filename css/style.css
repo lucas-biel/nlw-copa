@@ -1,0 +1,61 @@
+@import url('./global.css');
+@import url('./keyframes.css');
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    padding: 8px 16px;
+    margin: auto;
+    margin-bottom: 40px;
+    width: fit-content;
+
+    color: #f7dd43;
+
+    border: 1px solid var(--card-border-color);
+    border-radius: 6px;
+}
+
+.title span {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card ul li strong {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--white);
+}
+
+.card ul li + li {
+    border-top: 1px solid #323238;
+    padding-top: 24px;
+}
+
+.card li img:hover,
+.card li strong:hover {
+    transform: scale(1.2);
+}
+
+.card li img,
+.card li strong {
+    transition: transform .3s;
+}
+
+.card {
+    animation: appear .3s;
+}

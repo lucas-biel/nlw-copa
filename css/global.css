@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+
+/* ------ global ------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+/* ------ definição de cores e fontes a serem usadas na página ------ */
+:root {
+
+    /* -- colors --*/
+    --hue: 278;
+    --bg-color: hsl(var(--hue), 78%, 16%);
+    --card-border-color: hsl(var(--hue), 100%, 73%);
+    --card-bg-color: #1d1a1e;
+    --white: #e1e1e6;
+
+    /* -- fonts -- */
+    --principal-font: Roboto, sans-serif;
+
+    /* -- background images -- */
+    --bg-image-mobile: url('../assets/images/imagem-gramado-mobile.jpg');
+    --bg-image-desktop: url('../assets/images/imagem-gramado.jpg');
+    --bg-image-desktop-2: url('../assets/images/imagem-gramado-2.jpg');
+
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--bg-color) var(--bg-image-mobile) no-repeat center center/cover;
+    font-family: var(--principal-font);
+}
+
+body.blue {
+    --hue: 210;
+    --card-border-color: hsl(var(--hue), 100%, 73%);
+    --card-bg-color: #1f2123;
+}
+
+body.green {
+    --hue: 130;
+    --card-border-color: hsl(var(--hue), 100%, 73%);
+    --card-bg-color: #1a1f1a;
+}
+
+
+#app {
+    margin: auto;
+    padding-top: 52px;
+    padding-bottom: 30px;
+    width: fit-content;
+}
+
+header {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card {
+    padding: 32px 23px;
+    width: 310px;
+    
+    background-color: var(--card-bg-color);
+    border-bottom: 3px solid var(--card-border-color);
+    border-radius: 6px;
+}
