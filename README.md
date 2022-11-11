@@ -23,7 +23,7 @@
 <img src="./assets/images/banner-mobile.jpg" alt="banner projeto" width="350" height="500">
 
 * Para telas maiores, como tablet's, o site se apresenta um pouco diferente:
-<img src="./assets/images/banner-telas-medias.jpg" alt="banner projeto" width="400" height="600">
+<img src="./assets/images/banner-telas-medias.jpg" alt="banner projeto" width="550" height="600">
 
 * E para desktop e telas maiores o site fica como está na imagem do topo deste README.
 
