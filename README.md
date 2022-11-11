@@ -9,7 +9,7 @@
 
 * [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-*[JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+* [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## Status do projeto
 
@@ -19,6 +19,13 @@
 
 * Para acessar o projeto completo acesse o link abaixo:
 * [Projeto NLW Copa](https://lucas-biel.github.io/nlw-copa/)
+
+* Ou, se preferir, você pode clonar o projeto para a sua máquina e executar o arquivo index no seu navegador.
+* Use o comando no terminal:
+
+```
+git clone https://github.com/lucas-biel/nlw-copa.git
+```
   
 ## Autor
 
