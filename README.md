@@ -1,6 +1,6 @@
 # Projeto NLW Copa
 
-![Banner projeto](./assets/images/banner-desktop.jpg =360x300)
+<img src="./assets/images/banner-desktop.jpg" alt="banner projeto" width="700">
 
 * Esse projeto foi desenvolvido durante o evento da NLW, da Rocketseat.
 * O objetivo é praticar um pouco dos conceitos básicos do desenvolvimento web, com foco no front-end.
